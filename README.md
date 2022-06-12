@@ -11,8 +11,8 @@
 
   router.post("/api/v1/task/");
 
-  router.get("/api/v1/task//:id");
+  router.get("/api/v1/task/:id");
 
-  router.patch("/api/v1/task//:id");
+  router.patch("/api/v1/task/:id");
 
-  router.delete("/api/v1/task//:id");
+  router.delete("/api/v1/task/:id");
